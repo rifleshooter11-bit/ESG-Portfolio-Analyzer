@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ESG evidence, reporting and enterprise valuation workspace." />
+  <title>Verdant Ledger | ESG valuation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#overview" aria-label="Verdant Ledger home"><span class="brand-mark">V</span><span>Verdant<br><b>Ledger</b></span></a>
+    <nav aria-label="Primary navigation"><a href="#framework">Framework</a><a href="#data">Data foundation</a><a href="#valuation">Valuation</a><a href="#ledger">Evidence ledger</a></nav>
+    <button class="button button-dark" id="downloadReport">Download brief <span>↓</span></button>
+  </header>
+
+  <main>
+    <section id="overview" class="hero section-shell">
+      <div class="eyebrow"><span class="live-dot"></span> ESG disclosure & valuation workspace</div>
+      <div class="hero-grid">
+        <div>
+          <h1>Evidence-led ESG.<br><em>Investment-ready value.</em></h1>
+          <p class="hero-copy">A clear operating view of regulatory readiness, material impacts, emissions evidence and the financial value of an ESG transition.</p>
+          <div class="hero-actions"><a class="button button-dark" href="#valuation">Explore valuation <span>→</span></a><a class="text-link" href="#framework">View framework <span>↓</span></a></div>
+        </div>
+        <aside class="hero-card" aria-label="Portfolio status">
+          <div class="card-topline"><span>Disclosure status</span><span class="pill pill-green">On track</span></div>
+          <div class="readiness"><span class="readiness-score">78</span><span>/100</span><div class="readiness-label">BRSR Core readiness</div></div>
+          <div class="progress"><span style="width:78%"></span></div>
+          <div class="mini-stats"><div><span>Verified data</span><strong>84%</strong></div><div><span>Supplier coverage</span><strong>71%</strong></div><div><span>Reporting year</span><strong>FY 25–26</strong></div></div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section-shell headline-stats" aria-label="Key outcomes"><div><span>Base enterprise value</span><strong id="baseEvHeadline">₹11,360 Cr</strong></div><div><span>ESG-adjusted enterprise value</span><strong id="esgEvHeadline">₹11,948 Cr</strong></div><div><span>Value movement</span><strong class="green" id="valueMovement">+₹588 Cr</strong></div><div><span>Evidence records</span><strong>126</strong></div></section>
+
+    <section id="framework" class="section-shell section-block">
+      <div class="section-intro"><div class="eyebrow">01 / Framework & materiality</div><h2>Built for India. <em>Readable worldwide.</em></h2><p>Core disclosures align to SEBI BRSR Core and map to ISSB IFRS S1 and S2, so local compliance and investor communication draw from the same evidence.</p></div>
+      <div class="framework-grid">
+        <article class="framework-card"><div class="number">01</div><h3>Regulatory baseline</h3><p>Mandatory BRSR Core indicators are owned, evidenced and mapped to ISSB climate and general sustainability disclosures.</p><div class="tag-row"><span>SEBI BRSR Core</span><span>IFRS S1</span><span>IFRS S2</span></div></article>
+        <article class="framework-card"><div class="number">02</div><h3>Double materiality</h3><p>Each topic is assessed for financial effect and outward impact across the company’s operations and value chain.</p><div class="tag-row"><span>Financial materiality</span><span>Impact materiality</span></div></article>
+      </div>
+      <div class="materiality-wrap"><div><div class="subhead">Double materiality matrix</div><p class="muted">Prioritised for a diversified manufacturing operating profile.</p></div><div class="matrix"><div class="axis-y">Impact on people & planet →</div><div class="axis-x">Financial effect on enterprise value →</div><span class="point p1 hot">Scope 3 emissions</span><span class="point p2 hot">Worker safety</span><span class="point p3 hot">Energy transition</span><span class="point p4">Water stewardship</span><span class="point p5">Board oversight</span><span class="point p6">Community impact</span></div><div class="matrix-key"><span><i class="dot hot-dot"></i> Priority topic</span><span><i class="dot"></i> Monitored topic</span><small>Approved 20 Aug 2026<br>Methodology version 1.0</small></div></div>
+    </section>
+
+    <section id="data" class="section-tint"><div class="section-shell section-block">
+      <div class="section-intro"><div class="eyebrow">02 / Core data ingestion</div><h2>From source record<br>to <em>comparable measure.</em></h2><p>Operational records and supplier submissions are normalised into governed ESG metrics with a traceable source and factor for every calculation.</p></div>
+      <div class="data-flow"><article><div class="flow-icon">◫</div><h3>Direct operations</h3><p>ERP, HR and energy-meter records provide Scope 1, Scope 2, workforce and safety inputs.</p><ul><li>Energy meters <b>38 linked</b></li><li>HR & safety records <b>Current</b></li></ul></article><div class="flow-arrow">→</div><article><div class="flow-icon">↗</div><h3>Supplier portal</h3><p>Tier-1 suppliers submit emissions, labour-practice and governance evidence against a standard request.</p><ul><li>Tier-1 invitations <b>142 sent</b></li><li>Complete responses <b>101</b></li></ul></article><div class="flow-arrow">→</div><article><div class="flow-icon">≋</div><h3>Normalised ledger</h3><p>Inputs are converted to standard units and sealed with their factor, source and reporting period.</p><ul><li>CEA electricity factor <b>0.716 kgCO₂e/kWh*</b></li><li>Evidence coverage <b>84%</b></li></ul></article></div>
+      <p class="footnote">* Configured factor shown for demonstration. Confirm the applicable Central Electricity Authority factor and reporting period before disclosure.</p>
+      <div class="ingestion-grid"><div class="source-table"><div class="subhead">Latest evidence received</div><table><thead><tr><th>Record</th><th>Source</th><th>Period</th><th>Status</th></tr></thead><tbody><tr><td>Electricity consumption</td><td>Plant meter set</td><td>Jul 2026</td><td><span class="pill pill-green">Verified</span></td></tr><tr><td>Lost-time incidents</td><td>HR & safety</td><td>Q1 FY 25–26</td><td><span class="pill pill-green">Verified</span></td></tr><tr><td>Purchased goods emissions</td><td>101 suppliers</td><td>FY 25–26</td><td><span class="pill pill-amber">Reviewed</span></td></tr></tbody></table></div><aside class="data-note"><div class="subhead">Data quality guardrails</div><p>Every evidence record retains its input unit, conversion factor, collection route, owner and sign-off.</p><a href="#ledger" class="text-link">Open evidence ledger <span>→</span></a></aside></div>
+    </div></section>
+
+    <section id="valuation" class="section-shell section-block valuation-section">
+      <div class="section-intro"><div class="eyebrow">03 / Financial valuation</div><h2>Translate ESG action<br>into <em>enterprise value.</em></h2><p>Transparent cash-flow changes and a cost-of-capital adjustment show precisely how the ESG case differs from the base case.</p></div>
+      <div class="valuation-layout"><div class="controls-panel"><div class="subhead">Assumptions</div><label>Base WACC <output id="baseWaccOut">10.8%</output><input id="baseWacc" type="range" min="8" max="14" step="0.1" value="10.8" /></label><label>ESG risk adjustment <output id="riskAdjustmentOut">−0.6%</output><input id="riskAdjustment" type="range" min="-1.5" max="0.5" step="0.1" value="-0.6" /></label><label>Annual transition CapEx <output id="capexOut">₹120 Cr</output><input id="capex" type="range" min="20" max="250" step="10" value="120" /></label><label>Annual operating impact <output id="opexOut">₹45 Cr</output><input id="opex" type="range" min="-50" max="150" step="5" value="45" /></label><label>ESG score <output id="scoreOut">76 / 100</output><input id="score" type="range" min="30" max="95" step="1" value="76" /></label><p class="control-note">Inputs are scenario controls only. They do not change the sealed evidence ledger.</p></div>
+        <div class="value-panel"><div class="value-panel-head"><div><span class="subhead">Enterprise value comparison</span><h3>Base case vs ESG case</h3></div><span class="pill pill-green">Scenario active</span></div><div class="ev-comparison"><div class="ev-block"><span>Base case</span><strong id="baseEv">₹11,360 Cr</strong><small>WACC <b id="baseWaccValue">10.8%</b></small><div class="ev-bar"><i id="baseBar" style="width:95%"></i></div></div><div class="ev-block esg-block"><span>ESG-adjusted case</span><strong id="esgEv">₹11,948 Cr</strong><small>WACC <b id="adjustedWacc">10.2%</b></small><div class="ev-bar"><i id="esgBar" style="width:100%"></i></div></div></div><div class="value-delta"><span>Implied value movement</span><strong id="valueDelta">+₹588 Cr <small>(+5.2%)</small></strong></div><div class="cashflow-row"><div><span>Transition CapEx</span><strong id="capexValue">₹120 Cr / year</strong></div><div><span>Operating impact</span><strong id="opexValue">₹45 Cr / year</strong></div><div><span>ESG composite score</span><strong id="scoreValue">76 / 100</strong></div></div></div>
+      </div>
+      <div class="score-strip"><div><span>Environmental</span><strong>74</strong><i><b style="width:74%"></b></i></div><div><span>Social</span><strong>81</strong><i><b style="width:81%"></b></i></div><div><span>Governance</span><strong>73</strong><i><b style="width:73%"></b></i></div><p>Sector-specific weights: Environmental 45% · Social 30% · Governance 25%</p></div>
+    </section>
+
+    <section id="ledger" class="section-dark"><div class="section-shell section-block"><div class="section-intro light"><div class="eyebrow">04 / Audit, methodology & sources</div><h2>An evidence trail<br>that <em>stands up.</em></h2><p>Method, source and calculation details are fixed in an append-only ledger for transparent review.</p></div><div class="ledger-top"><div class="seal"><span>✓</span><div><b>Ledger sealed</b><small>Append-only evidence snapshot</small></div></div><div class="ledger-meta"><span>Snapshot ID</span><b>VL-FY26-0820-01</b><span>Last sealed</span><b>20 Aug 2026 · 14:30 IST</b></div></div><div class="ledger-table"><table><thead><tr><th>Record ID</th><th>Topic</th><th>Method / factor</th><th>Source</th><th>Sign-off</th></tr></thead><tbody><tr><td>EV-00182</td><td>Scope 2 electricity</td><td>CEA factor · 0.716 kgCO₂e/kWh</td><td>Meter set / Jul 2026</td><td>Operations · Verified</td></tr><tr><td>EV-00207</td><td>Supplier emissions</td><td>Supplier activity data · Scope 3</td><td>101 Tier-1 submissions</td><td>Procurement · Reviewed</td></tr><tr><td>EV-00215</td><td>Workplace safety</td><td>LTIFR per 1m hours</td><td>HR & safety register</td><td>People · Verified</td></tr><tr><td>VA-00031</td><td>DCF scenario</td><td>5-year cash flow / terminal growth 4.5%</td><td>Finance planning case</td><td>Finance · Approved</td></tr></tbody></table></div><div class="methodology"><div><span class="subhead">Methodology note</span><p>The ESG composite score combines normalised Environmental, Social and Governance indicators using sector weights. The valuation case applies stated CapEx and operating impacts to cash flows and modifies WACC by the disclosed ESG risk adjustment.</p></div><a id="downloadLedger" class="button button-light" href="#">Export evidence ledger <span>↓</span></a></div></div></section>
+  </main>
+  <footer class="site-footer section-shell"><a class="brand" href="#overview"><span class="brand-mark">V</span><span>Verdant<br><b>Ledger</b></span></a><p>For decision support and disclosure preparation. Not investment advice or an assurance opinion.</p><span>© 2026 Verdant Ledger</span></footer>
+  <script src="./app.js"></script>
+</body>
+</html>

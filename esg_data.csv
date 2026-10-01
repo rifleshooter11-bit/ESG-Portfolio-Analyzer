@@ -1,0 +1,16 @@
+Ticker,Company Name,Sector,Industry,Market Cap ($B),P/E Ratio,Environmental Risk,Social Risk,Governance Risk,Total ESG Risk Score,ESG Rating,Last Updated
+AAPL,Apple Inc.,Technology,Consumer Electronics,4860.15,34.75,16.8,17.6,18.3,17.5,AA (Leader),2026-10-01
+MSFT,Microsoft Corporation,Technology,Software - Infrastructure,3808.56,21.69,19.7,14.6,20.5,18.4,AA (Leader),2026-10-01
+GOOGL,Alphabet Inc.,Communication Services,Internet Content & Information,4208.08,22.83,11.1,25.4,17.0,17.2,AA (Leader),2026-10-01
+AMZN,"Amazon.com, Inc.",Consumer Cyclical,Internet Retail,2687.41,23.78,22.5,16.6,19.1,19.7,AA (Leader),2026-10-01
+TSLA,"Tesla, Inc.",Consumer Cyclical,Auto Manufacturers,1401.34,164.04,9.6,15.8,18.0,14.0,AAA (Leader),2026-10-01
+JNJ,Johnson & Johnson,Healthcare,Drug Manufacturers - General,638.0,21.81,15.1,24.5,26.3,21.3,AA (Leader),2026-10-01
+V,Visa Inc.,Financial Services,Credit Services,674.59,23.95,28.8,19.8,17.8,22.8,A (Average),2026-10-01
+PG,Procter & Gamble Company (The),Consumer Defensive,Household & Personal Products,337.44,19.63,27.8,21.1,20.5,23.6,A (Average),2026-10-01
+NVDA,NVIDIA Corporation,Technology,Semiconductors,5514.69,14.56,18.8,10.1,25.9,18.3,AA (Leader),2026-10-01
+JPM,JP Morgan Chase & Co.,Financial Services,Banks - Diversified,879.41,13.21,30.9,22.2,18.8,24.7,A (Average),2026-10-01
+XOM,ExxonMobil Holdings Corporation,Energy,Oil & Gas Integrated,669.21,14.43,36.5,35.5,17.9,30.6,BBB (Average),2026-10-01
+UNH,UnitedHealth Group Incorporated,Healthcare,Healthcare Plans,329.49,16.24,16.3,20.6,20.7,18.9,AA (Leader),2026-10-01
+HD,"Home Depot, Inc. (The)",Consumer Cyclical,Home Improvement Retail,283.83,17.75,20.7,20.1,19.4,20.1,AA (Leader),2026-10-01
+CVX,Chevron Corporation,Energy,Oil & Gas Integrated,400.58,14.45,41.6,41.5,21.7,35.6,CCC (Laggard),2026-10-01
+LLY,Eli Lilly and Company,Healthcare,Drug Manufacturers - General,1031.82,24.44,29.3,21.1,23.4,25.0,A (Average),2026-10-01
